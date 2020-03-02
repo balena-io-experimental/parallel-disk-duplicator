@@ -37,12 +37,6 @@ fn main() {
         chunks.push(Chunk::new(BLOCKS_PER_CHUNK));
     }
 
-    /*
-     * COMMENTED OUT TO AVOID ACCIDENTAL COMPILE & RUN
-     * make sure you put the right values here.
-     * or implement cmdline parameters and send a PR :)
-     */
-    /*
     let input_path = "/dev/sda";
 
     let outputs = [
@@ -62,7 +56,6 @@ fn main() {
         "/dev/sdo",
         "/dev/sdp",
     ];
-    */
 
     let finished = AtomicBool::new(false);
 
